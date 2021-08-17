@@ -94,7 +94,7 @@ map.on('load', function () {
 
 
 map.on('click', 'buildingData', function (e) {
-    var name = e.features[0].properties.name;
+    var name = e.features[0].properties.nameweb;
     var bin = e.features[0].properties.bin;
     var year = e.features[0].properties.year;
     var type = e.features[0].properties.type;
