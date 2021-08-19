@@ -2,7 +2,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiamZzMjExOCIsImEiOiJjazJvdXZ2MnkxN2owM2Rwbm1wN
 var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/jfs2118/ckrc7wznz0mf818qwou9f42gy',
-    center: [-74.018, 40.754],
+    center: [-74.008, 40.750],
     zoom: 13.8,
     pitch: 0,
     bearing: 29.5,
@@ -126,7 +126,7 @@ map.on('mouseleave', 'buildingData', function () {
     map.getCanvas().style.cursor = '';
 });
 
-var toggleableLayerIds = ['Produce in NYC By SunYanarch'];
+var toggleableLayerIds = ['Produce in NYC By SunYan'];
 
 for (var i = 0; i < toggleableLayerIds.length; i++) {
     var id = toggleableLayerIds[i];
